@@ -1,0 +1,917 @@
+@media screen and (max-width: 1350px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  nav ul li {
+    font-size: 1.8rem;
+  }
+
+  /* Container section */
+
+  #container .sample {
+    margin-top: 0.5rem;
+    font-size: 3.3rem;
+  }
+
+  .middle p {
+    font-size: 1.7rem;
+    margin-top: -3rem;
+  }
+
+  .middle button {
+    margin-top: 3rem;
+    height: 5vh;
+    width: 15vw;
+    font-size: 1.3rem;
+  }
+
+  /* Hexagon Section */
+
+  .hexagon {
+    height: 67vh;
+    width: 50vw;
+    rotate: 13deg;
+    margin-left: -6rem;
+    margin-top: 7rem;
+  }
+
+  .imege {
+    height: 32vh;
+    width: 35vw;
+  }
+
+  .shape1 {
+    height: 28vh;
+    width: 35vw;
+    top: 2rem;
+    left: 4rem;
+  }
+  .shape2 {
+    height: 28vh;
+    width: 35vw;
+    left: -2rem;
+  }
+  .shape3 {
+    height: 28vh;
+    width: 35vw;
+    top: -10.91rem;
+  }
+
+  .about,
+  .home {
+    margin-left: 0rem;
+  }
+
+  .boxes {
+    margin-top: -13rem;
+    font-size: 1.3rem;
+  }
+  .bi {
+    height: 8vh;
+  }
+
+  .hexagon1,
+  .hexagon2,
+  .hexagon3 {
+    rotate: 10deg;
+  }
+
+  .box1 .hexagon1 {
+    height: 7vh;
+    width: 28vw;
+    margin-right: 0.8rem;
+  }
+
+  .box2 .hexagon2 {
+    height: 7vh;
+    width: 28vw;
+    margin-right: 0.8rem;
+  }
+
+  .box3 .hexagon3 {
+    height: 7vh;
+    width: 28vw;
+    margin-right: 0.8rem;
+  }
+
+  .inside {
+    height: 6vh;
+    width: 10vw;
+    left: 0rem;
+    top: 0.5rem;
+    rotate: -10deg;
+  }
+
+  /* Client Section */
+
+  .clients {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -8rem;
+  }
+  .clients h3 {
+    justify-content: center;
+    margin-top: -3.5rem;
+    margin-bottom: -1rem;
+    font-size: 3.5rem;
+  }
+
+  .symbols {
+    justify-content: center;
+    /* margin-left: -2.4rem; */
+  }
+
+  .clients .symbols img {
+    height: 7vh;
+    width: 10vw;
+  }
+
+  /* SpecialBoxes Section */
+
+  .specialBoxes .boxas .boxasinside {
+    height: 15vh;
+    width: 18vw;
+  }
+}
+
+/* Responsive for IPAd */
+
+@media screen and (max-width: 1000px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  nav ul li {
+    font-size: 1.3rem;
+  }
+
+  /* Container Section */
+
+  #container .sample {
+    font-size: 2.4rem;
+    margin-top: 0.7rem;
+  }
+
+  .middle p {
+    font-size: 1.4rem;
+    margin-top: -3.2rem;
+  }
+
+  .middle button {
+    height: 6vh;
+    width: 14vw;
+    font-size: 1rem;
+    margin-top: 2.5rem;
+  }
+
+  .shape1 {
+    height: 35vh;
+    width: 33vw;
+    top: 5rem;
+  }
+  .shape2 {
+    height: 35vh;
+    width: 33vw;
+    top: -3.5rem;
+    left: -3rem;
+  }
+  .shape3 {
+    height: 35vh;
+    width: 33vw;
+    top: -2.5rem;
+    margin-left: -2.2rem;
+  }
+
+  .shape1 .contente {
+    font-size: 0.9rem;
+  }
+  .shape2 .contente {
+    font-size: 0.9rem;
+  }
+  .shape3 .contente {
+    font-size: 0.9rem;
+  }
+
+  /* BOX Section */
+
+  .boxes {
+    margin-top: -3rem;
+  }
+
+  .box1 .hexagon1 {
+    height: 6vh;
+    width: 20vw;
+    margin-right: 0.6rem;
+  }
+  .box2 .hexagon2 {
+    height: 6vh;
+    width: 20vw;
+    margin-right: 0.6rem;
+  }
+  .box3 .hexagon3 {
+    height: 6vh;
+    width: 20vw;
+    margin-right: 0.6rem;
+  }
+
+  /* Client section */
+
+  .clients {
+    margin-top: 2rem;
+  }
+  .clients .symbols img {
+    width: 10vw;
+    height: 7vh;
+  }
+
+  .clients h3 {
+    justify-content: center;
+    font-size: 2.7rem;
+    margin-top: -8rem;
+    margin-bottom: -1.1rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  /* Container section */
+
+  .hexagon {
+    rotate: 10deg;
+    /* rotate: 13deg; */
+    margin-left: -2rem;
+    margin-top: 2rem;
+  }
+
+  .shape1 {
+    height: 29vh;
+    width: 33vw;
+  }
+  .shape2 {
+    height: 29vh;
+    width: 33vw;
+    margin-left: 8rem;
+  }
+
+  .shape3 {
+    height: 29vh;
+    width: 33vw;
+    left: 1.8rem;
+    margin-left: 2.3rem;
+    margin-top: 3rem;
+  }
+
+  .shape1 .contente {
+    font-size: 0.76rem;
+  }
+  .shape2 .contente {
+    font-size: 0.76rem;
+  }
+  .shape3 .contente {
+    font-size: 0.76rem;
+  }
+
+  /* BOX Section */
+
+  .boxes {
+    font-size: 0.93rem;
+    margin-top: -8.9rem;
+  }
+  .bi {
+    height: 5vh;
+  }
+
+  .box1 .hexagon1 {
+    height: 6vh;
+    width: 10vw;
+    margin-right: 0.4rem;
+  }
+  .box2 .hexagon2 {
+    height: 6vh;
+    width: 10vw;
+    margin-right: 0.4rem;
+  }
+  .box3 .hexagon3 {
+    height: 6vh;
+    width: 10vw;
+    margin-right: 0.4rem;
+  }
+
+  .inside {
+    top: 0rem;
+  }
+
+  /* Client section */
+  .clients h3 {
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: -11rem;
+    margin-bottom: -1.7rem;
+  }
+
+  .clients .symbols img {
+    width: 15vw;
+    height: 4vh;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .hexagon {
+    margin-top: 5rem;
+    margin-left: -1rem;
+  }
+
+  .clients h3 {
+    margin-top: -5.5rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  nav ul li {
+    font-size: 1rem;
+  }
+
+  /* Container Section */
+
+  #container .sample {
+    font-size: 2rem;
+  }
+
+  .middle p {
+    font-size: 0.79rem;
+    margin-top: -2rem;
+  }
+
+  .middle button {
+    height: 4vh;
+    width: 10vw;
+    font-size: 0.6rem;
+  }
+
+  .shape1 {
+    height: 27vh;
+    width: 33vw;
+    top: 6rem;
+    left: 4rem;
+  }
+  .shape2 {
+    height: 27vh;
+    width: 33vw;
+    top: 4rem;
+  }
+
+  .shape3 {
+    height: 27vh;
+    width: 33vw;
+    top: 2.95rem;
+    left: -0.7rem;
+  }
+
+  /* BOX section */
+
+  .boxes {
+    margin-top: -6.6rem;
+  }
+}
+
+/* Responsive for Mobile users */
+
+@media screen and (max-width: 610px) {
+  nav ul li {
+    font-size: 0.8rem;
+  }
+
+  /* Container Section */
+
+  #container .sample {
+    font-size: 1.6rem;
+    margin-top: 1.8rem;
+  }
+
+  .middle p {
+    font-size: 0.79rem;
+    margin-top: -3rem;
+  }
+
+  .middle button {
+    height: 5vh;
+    width: 8vw;
+    font-size: 0.6rem;
+  }
+
+  .hexagon {
+    margin-top: 0rem;
+    margin-left: -1.5rem;
+  }
+
+  .shape1 {
+    height: 24vh;
+    width: 33vw;
+    left: 5.5rem;
+  }
+  .shape2 {
+    height: 24vh;
+    width: 33vw;
+    top: 9rem;
+    left: -4.8rem;
+  }
+
+  .shape3 {
+    height: 24vh;
+    width: 33vw;
+    top: 16rem;
+  }
+
+  .shape1 .contente {
+    font-size: 0.5rem;
+  }
+  .shape2 .contente {
+    font-size: 0.5rem;
+  }
+  .shape3 .contente {
+    font-size: 0.5rem;
+  }
+
+  /* BOX Section */
+
+  .boxes {
+    font-size: 0.7rem;
+    margin-top: -3.5rem;
+    margin-bottom: 14rem;
+  }
+
+  .box1 {
+    padding: 0 1.8rem;
+  }
+  .box2 {
+    padding: 0 1.8rem;
+  }
+  .box3 {
+    padding: 0 1.8rem;
+  }
+
+  .box1 .hexagon1 {
+    height: 5.5vh;
+    width: 10vw;
+    margin-right: 0.4rem;
+  }
+  .box2 .hexagon2 {
+    height: 5.5vh;
+    width: 10vw;
+    margin-right: 0.4rem;
+  }
+  .box3 .hexagon3 {
+    height: 5.5vh;
+    width: 10vw;
+    margin-right: 0rem;
+  }
+
+  .inside {
+    top: -0.2rem;
+  }
+
+  /* clent section */
+
+  .clients {
+    margin-top: 3rem;
+  }
+
+  .clients h3 {
+    font-size: 2.3rem;
+    margin-top: -5.4rem;
+  }
+
+  /* SpecialBoxes Section */
+
+  .specialBoxes .boxas .boxasinside {
+    font-size: 0.6rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Contact us section */
+
+  .contact {
+    margin-top: 1rem;
+  }
+
+  .contact h3 {
+    font-size: 2.3rem;
+  }
+  .contact .contect h3 {
+    font-size: 1.2rem;
+  }
+
+  .contact .contect .sales p {
+    font-size: 1rem;
+  }
+
+  .clients .symbols img {
+    height: 4.5vh;
+    width: 16vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav ul li {
+    font-size: 0.8rem;
+  }
+
+  /* Container Section */
+
+  #container .sample {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+
+  .middle p {
+    font-size: 0.78rem;
+    margin-top: -3rem;
+  }
+
+  .middle button {
+    height: 5vh;
+    width: 10vw;
+    font-size: 0.6rem;
+  }
+
+  .shape1 {
+    height: 20vh;
+    width: 33vw;
+    left: 6rem;
+  }
+  .shape2 {
+    height: 20vh;
+    width: 33vw;
+    top: 7rem;
+  }
+
+  .shape3 {
+    height: 20vh;
+    width: 33vw;
+    top: 11rem;
+  }
+
+  /* BOX Section */
+  .boxes {
+    margin-bottom: 8rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.89rem;
+    margin-left: 1rem;
+    margin-top: -14rem;
+  }
+
+  .box1 {
+    width: 70vw;
+    height: 25vh;
+    margin-top: 0rem;
+    margin-bottom: 2.5rem;
+    border: 2px solid #7d5a5a;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1d1d1;
+  }
+  .box2 {
+    width: 70vw;
+    height: 25vh;
+    margin: 1.5rem 0;
+    border: 2px solid #7d5a5a;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1d1d1;
+  }
+  .box3 {
+    width: 70vw;
+    height: 25vh;
+    margin: 1.5rem 0;
+    border: 2px solid #7d5a5a;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1d1d1;
+  }
+
+  .box1 .hexagon1 {
+    height: 5vh;
+    width: 40vw;
+  }
+  .box2 .hexagon2 {
+    height: 5vh;
+    width: 40vw;
+  }
+  .box3 .hexagon3 {
+    height: 5vh;
+    width: 40vw;
+  }
+
+  /* Client section */
+
+  .clients h3 {
+    margin-top: -6rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  nav ul li {
+    font-size: 0.6rem;
+  }
+
+  /* Container section */
+
+  #container .sample {
+    font-size: 1rem;
+    margin-top: -0.4rem;
+  }
+
+  .middle p {
+    font-size: 0.7rem;
+    margin-top: -4.3rem;
+  }
+
+  .middle button {
+    height: 4vh;
+    width: 11vw;
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .btn2 {
+    position: relative;
+    left: -1.1rem;
+  }
+
+  .shape1 {
+    height: 14vh;
+    width: 28vw;
+    top: 4.5rem;
+    left: 7.5rem;
+  }
+  .shape2 {
+    height: 14vh;
+    width: 28vw;
+    top: 13.4rem;
+    left: -6rem;
+  }
+
+  .shape3 {
+    height: 14vh;
+    width: 28vw;
+    top: 20.9rem;
+    left: -0.8rem;
+  }
+
+  .shape1 .contente {
+    font-size: 0.25rem;
+  }
+  .shape2 .contente {
+    font-size: 0.25rem;
+  }
+  .shape3 .contente {
+    font-size: 0.25rem;
+  }
+
+  /* BOX Section */
+  .boxes {
+    margin-top: -27rem;
+    font-size: 0.7rem;
+    min-height: max-content;
+    margin-top: -13rem;
+  }
+  .bi {
+    height: 5vh;
+  }
+
+  .box1 {
+    width: 65vw;
+    height: 25vh;
+    margin-top: -1.3rem;
+  }
+  .box2 {
+    width: 65vw;
+    height: 25vh;
+    margin-top: -1rem;
+  }
+
+  .box3 {
+    width: 65vw;
+    height: 25vh;
+    margin-top: -0.01rem;
+  }
+  .clients h3 {
+    margin-top: -9rem;
+    font-size: 2rem;
+  }
+
+  /* SpecialBoxes section */
+
+  .specialBoxes .boxas .boxasinside {
+    font-size: 0.5rem;
+    height: 12vh;
+    width: 25vw;
+  }
+
+  /* Contact us section */
+
+  .contact h3 {
+    font-size: 2rem;
+  }
+  .contact .contect h3 {
+    font-size: 1.2rem;
+  }
+
+  .contact .contect .sales p {
+    font-size: 0.8rem;
+  }
+}
+
+/* For IPHONE X start */
+/*
+
+@media screen and (max-width:390px) {
+
+  .shape3 {
+    top: 18.6rem;
+  
+  
+  } 
+
+
+
+
+  .boxes{
+    margin-top: -15rem;
+  }
+
+
+}*/
+
+/* For IPHONE X End */
+
+@media screen and (max-width: 378px) {
+  .boxes {
+    margin-top: -10rem;
+  }
+  .bi {
+    height: 5vh;
+  }
+
+  .hexagon {
+    margin-top: 1.8rem;
+    margin-left: -1.2rem;
+  }
+
+  .shape2 {
+    left: -6.5rem;
+  }
+
+  .shape3 {
+    left: -0.8rem;
+  }
+
+  /* .box1 .hexagon1 {
+    height: 6.5vh;
+    width: 40vw;
+    
+  }
+  .box2 .hexagon2 {
+    height: 6.5vh;
+    width: 15vw;
+    
+  }
+  .box3 .hexagon3 {
+    height: 6.5vh;
+    width: 40vw;
+    
+  } */
+
+  /* .inside{
+    width:5vw ;
+    height:2vh ;
+  } */
+
+  /* Contact us section */
+
+
+
+  .contact{
+    margin-top: 0rem;
+  }
+
+
+  .contact h3{
+    margin-bottom: .8rem;
+  }
+
+  .contact .contect h3 {
+    font-size: 1rem;
+  }
+
+  .contact   .contect .sales p{
+    font-size: .7rem;
+  }
+
+
+  .contact   .contect .sales {
+    margin: 0rem;
+    width: 100%;
+  }
+
+
+}
+
+@media screen and (max-width: 330px) {
+  nav ul li {
+    font-size: 0.5rem;
+  }
+  /* container section */
+
+  #container .sample {
+    font-size: 0.9rem;
+    margin-top: -0.7rem;
+  }
+
+  .middle p {
+    font-size: 0.5rem;
+  }
+
+  .middle button {
+    height: 4vh;
+    width: 11.93vw;
+    font-size: 0.35rem;
+  }
+
+.hexagon{
+  margin-top: 0rem;
+}
+
+  
+.shape1 {
+  left: 8rem;
+
+}
+
+
+  .shape2 {
+    top: 15rem;
+  }
+
+  .shape3 {
+    top: 21.6rem;
+    left: -1.2rem;
+  }
+
+  /* BOX Section */
+  .boxes {
+    font-size: 0.7rem;
+    margin-top: -12.8rem;
+  }
+
+  .bi {
+    height: 4.8vh;
+  }
+
+  .box1 {
+    width: 68vw;
+    height: 35vh;
+    margin-top: 3rem;
+  }
+  .box2 {
+    width: 68vw;
+    height: 35vh;
+  }
+
+  .box3 {
+    width: 68vw;
+    height: 35vh;
+  }
+
+.hexagon1{
+  height: 6vh;
+  width: 10vw;
+}
+
+
+  /* client section */
+
+  .clients h3 {
+    font: 0.8rem;
+  }
+
+  .clients .symbols img {
+    height: 3vh;
+    width: 20vw;
+  }
+}
+
+@media screen and (max-width: 285px) {
+  .boxes {
+    margin-top: -16rem;
+  }
+}
